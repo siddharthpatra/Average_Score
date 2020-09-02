@@ -1,4 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -9,60 +8,28 @@ In the project directory, you can run:
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This project is made through creat-react-app and have the visualities tested on chrome. So for better results use chrome browser.
+Author of this project is Siddharth Patra
+Find more details at www.eventsapiens.com
 
-### `npm test`
+###npm start
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This will help to start the project in default web browsr
 
-### `npm run build`
+### There are two source of data available
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+By default it will be on Test Data. We can switch to Server Data by clicking the radio button.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### When user starts typing the country names then the country names will pop out only if the user input matches with the country names present in the data available
+and then it will show the total number of data available as per the user input and user have to select one ogf the data available.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+###When the country names get selected automatically the data for the score will be available according to the score of the batsman available.
 
-### `npm run eject`
+### On clicking one of the score the Horizontal blue bar will be available.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+###At any point user wants to change any data then the field needs to be cleared first for providing new value.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### The Horizontal Bar will not be populated untill and unless the data available with the server/test matches the userinput data that happens only through click
+on the data provided.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
